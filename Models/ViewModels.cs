@@ -1,0 +1,9 @@
+#pragma warning disable CS8618
+namespace WeddingPlanner.Models
+{
+    public class LogRegModel
+    {
+        public WeddingUser Register {get;set;}
+        public LoginUser Login {get;set;}
+    }
+}
